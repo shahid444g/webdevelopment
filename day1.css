@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: blue;
+}
+body{
+    background-image: url("https://static.scientificamerican.com/sciam/cache/file/7A715AD8-449D-4B5A-ABA2C5D92D9B5A21_source.png");
+    background-size: 500px;
+    background-repeat: auto;
+    background-attachment: scroll;
+}
+
+h1,h2,h6{
+    font-family:sans-serif ;
+    font-size: 50px;
+    flex-wrap: wrap;
+    max-width: 300px;
+    width: 600px;
+    padding: 40px;
+    margin: 20px;
+   
+}
