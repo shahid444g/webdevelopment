@@ -1,0 +1,1108 @@
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 4800px;
+}
+
+.header {
+    background-color: #ce0000;
+    /* border: 2px solid black; */
+    width: 100%;
+    margin: 0;
+    padding-left: 10px;
+    display: flex;
+    height: 50px;
+
+
+}
+
+
+
+#snapshot img {
+    /* border: 2px solid black; */
+    padding-top: 15px;
+    padding-left: 28px;
+}
+
+.items {
+    position: absolute;
+    left: 251px;
+
+
+}
+
+#items {
+    display: flex;
+    list-style: none;
+
+
+}
+
+.items li {
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+    font-family: Lato, sans-serif;
+
+}
+
+.arrow {
+    filter: invert(100%);
+    position: absolute;
+    top: 15px;
+    left: 47rem;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Lato, sans-serif;
+
+}
+
+.arrow2 {
+    filter: invert(100%);
+    position: absolute;
+    top: 15px;
+    left: 50rem;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Lato, sans-serif;
+
+}
+
+.btn {
+    position: absolute;
+    left: 74rem;
+    top: 5px;
+    background-color: #f74d4b;
+    color: white;
+    padding-left: 17px;
+    padding-right: 50px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    border-radius: 30px;
+}
+.btn{
+    border: none; 
+}
+
+.btn :hover {
+    background-color: #11ff7c;
+    color: pink;
+}
+
+.human {
+    position: absolute;
+    left: 1256px;
+    width: 25px;
+    top: 11px;
+    border: none;
+
+}
+
+.second::before{
+    background:url('search-back-Ent.png')no-repeat center center/cover;
+    content: "";
+position: absolute;
+width: 100%;
+height: 42%;
+z-index: -1;
+top: 0;
+left: 0;
+/* opacity: 0.5; */
+
+}
+.text{
+    color: mintcream;
+    font-family: Lato, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+    line-break: 0px;
+    line-height: 19px;
+    padding-top: 19px;
+}
+#search{
+    padding: 14px;
+    border-radius: 24px;
+    padding-right: 45px;
+    position: absolute;
+    left: 35rem;
+    top: 11rem;
+    border: none;
+}
+#searchic img{
+    width: 17px;
+    position: absolute;
+    left: 47rem;
+    top: 188px;
+    stroke: none;
+    
+
+  
+
+}
+
+
+
+input:focus, #shahid:focus, select:focus{
+    outline: none;
+}
+.photos{
+    width: 100%;
+    height:300px;
+    position: absolute;
+    left: 0%;
+    top: 42%;
+    background-image: url('2.jpg');
+    background-size: 100% 100%;
+    height: 21rem;
+    animation: slider 60s infinite ease-out;
+    animation-iteration-count: 5s;
+}
+@keyframes slider{
+0%{
+background-image: url('1.jpg');
+
+}
+10%{background-image: url('3.jpg');}
+20%{background-image: url('4.jpg');}
+30%{background-image: url('5.jpg');}
+40%{background-image: url('6.jpg');}
+50%{background-image: url('7.jpg');}
+60%{background-image: url('8.jpg');}
+70%{background-image: url('9.jpg');}
+80%{background-image: url('10.jpg');}
+}
+.arrow img{
+    filter: invert(100%);
+    position: absolute;
+    left: -747px;
+    top: 377px;
+    width: 39px;
+    opacity: 2;
+}
+.arrow2 img{
+    filter: invert(100%);
+    
+    position: absolute;
+    right: -543px;
+    top: 377px;
+    width: 39px;
+    opacity: 2; 
+    
+ }
+
+#shoaib{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 377px;
+    /* z-index: 3; */
+}
+#shoaib2{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 377px;
+    right: 0px;
+    /* z-index: 0; */
+    
+}
+.klass{
+    position: absolute;
+    
+    top: 482px;
+    left: 580px;
+    width: 228px;
+    border-radius: 20px;
+     height: 43px; 
+    border: none;
+    background-color: 
+    #cb070b;
+    cursor: pointer;
+    
+    
+    
+    color: rgb(255, 255, 255);
+}
+
+    
+
+#findoutmore{
+    width: 228px;
+    border-radius: 20px;
+    height: 43px; 
+    border: none;
+    background-color: 
+    #cb070b;
+    cursor: pointer;
+    color: white;
+    z-index: 1;
+    border: 2px solid black;
+
+}
+
+.container strong{
+    font-family: Lato,sans-serif;
+    position: absolute;
+    top: 44px;
+    color: black;
+    width: 249px;
+    font-size: 36px;
+    left: 600px;}
+    #shoaibbot{
+        top: 57px;
+        position: absolute;
+        left: 541px;
+    }
+    
+    #shoaibbot2{
+        top: 57px;
+        position: absolute;
+        right: 458px;
+    }
+  
+      .container{
+          height: 35rem;
+          width: 100%;
+          background-color: #c4d5da;
+          position: absolute;
+          top: 567px;
+          left: 0px;
+      }
+      .imagee img{
+          width: 343px;
+          position: absolute;
+          top: 118px;
+          left: 113px;
+          height: 261px;
+          animation: slider 2s infinite ease-out;
+          animation-iteration-count: 1s;}
+          .imagee img:hover{
+              width: 345px;
+               height:270px ;
+                transform:scale(1.01);}
+          
+      
+      .imagee2 img{
+        width: 343px;
+        position: absolute;
+        top: 118px;
+        left: 514px;
+        height: 261px;
+    }
+    .imagee2 img:hover{
+        width: 345px;
+         height:270px ;
+          transform:scale(1.01);}
+    .imagee3 img{
+        width: 343px;
+        position: absolute;
+        top: 118px;
+        left: 914px;
+        height: 261px;
+    }
+    .imagee3 img:hover{
+        width: 345px;
+         height:270px ;
+          transform:scale(1.01);
+        
+    }
+      #firsttext{
+        width: 344px;
+        position: absolute;
+        top: 360px;
+        left: 113px;
+        height: 49px;
+        color: black;
+        background-color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        font-size: 20px;
+      }
+      
+      
+      #secondtext{
+        width: 344px;
+        position: absolute;
+        top: 360px;
+        left: 513px;
+        height: 49px;
+        color: black;
+        background-color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        font-size: 20px;
+      }
+      #thirdtext{
+        width: 344px;
+        position: absolute;
+        top: 360px;
+        left: 914px;
+        height: 49px;
+        color: black;
+        background-color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        font-size: 20px;
+      }
+      
+#viewall{
+    width: 228px;
+    border-radius: 20px;
+    height: 43px; 
+    border: none;
+    background-color: 
+    #cb070b;
+    cursor: pointer;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    border: 2px solid black;
+    top: 489px;
+    left: 580px;
+
+}
+.container1{
+    height: 48rem;
+    width: 100%;
+    background-color: #f74d4b;
+    position: absolute;
+    top: 1127px;
+    left: 0px;}
+    .container1 strong{
+        font-family: Lato,sans-serif;
+        position: absolute;
+        top: 44px;
+        color: black;
+        width: 270px;
+        font-size: 36px;
+        left: 550px;
+    color: white;}
+        #shoaibbot3{
+            top: 57px;
+            position: absolute;
+            left: 499px;
+        }
+        
+        #shoaibbot4{
+            top: 57px;
+            position: absolute;
+            right: 458px;
+        }
+        .imageea img{
+            width: 500px;
+            position: absolute;
+            top: 110px;
+            left: 113px;
+            
+            height: 400px;}
+            #firsttext1{
+                width: 344px;
+                position: absolute;
+                top: 490px;
+                left: 113px;
+                height: 49px;
+                color: black;
+                background-color: white;
+                text-align: center;
+                padding-top: 10px;
+                padding-bottom: 17px;
+                font-size: 20px;
+                padding-right: 78px;
+                padding-left: 82px;
+                cursor: pointer;
+                
+              }
+              
+                  .imageeb img{
+                    position: absolute;
+                    top: 110px;
+                    left: 687px;
+                    width: 200px;
+                  }
+                  .imageea img:hover{
+                  
+                    width: 505px;
+                     height:405px ;
+                      transform:scale(1.01);}
+                     
+                      .imageec img{
+                        position: absolute;
+                        top: 110px;
+                        left: 1001px;
+                        width: 200px;
+                      }
+                      .imageed img{
+                        position: absolute;
+                        top: 362px;
+                        left: 690px;
+                        width: 200px;
+                      }
+                      .imageee img{
+                        position: absolute;
+                        top: 362px;
+                        left: 1004px;
+                        width: 195px;
+                      }
+                      #firsttext2{
+                        font-family: sans-serif;
+    width: 179px;
+    position: absolute;
+    top: 226px;
+    left: 687px;
+    height: 54px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 24px;
+    font-size: 17px;
+    padding-right: 10px;
+    padding-left: 11px;
+    cursor: pointer;
+                        
+                    }
+                    #firsttext3{
+                        font-family: sans-serif;
+    width: 199px;
+    position: absolute;
+    top: 235px;
+    left: 1002px;
+    height: 66px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 0px;
+    font-size: 17px;
+    padding-right: 0px;
+    padding-left: 0px;
+    cursor: pointer;
+                    }
+                    #firsttext4{
+                        font-family: sans-serif;
+                        width: 188px;
+                        position: absolute;
+                        top: 481px;
+                        left: 692px;
+                        height: 66px;
+                        color: black;
+                        background-color: white;
+                        text-align: center;
+                        padding-top: 22px;
+                        padding-bottom: 1px;
+                        font-size: 14px;
+                        padding-right: 4px;
+                        padding-left: 3px;
+                        cursor: pointer;
+                        
+                    }
+                    #firsttext5{
+                     
+                        font-family: sans-serif;
+    width: 188px;
+    position: absolute;
+    top: 481px;
+    left: 1004px;
+    height: 66px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 1px;
+    font-size: 14px;
+    padding-right: 4px;
+    padding-left: 3px;
+    cursor: pointer;
+                                            
+                                        }
+                                        #viewall2{
+                                            width: 228px;
+                                            border-radius: 20px;
+                                            height: 43px; 
+                                            border: none;
+                                            background-color: 
+                                            #cb070b;
+                                            cursor: pointer;
+                                            color: white;
+                                            z-index: 1;
+                                            position:absolute;  
+                                            border: 2px solid black;
+                                            top: 662px;
+                                            left: 580px;
+                                        
+                                        }
+                                        .container3{
+                                            height: 48rem;
+                                            width: 100%;
+                                            background-color: rgb(196, 213, 218);
+                                            position: absolute;
+                                            top: 1895px;
+                                            left: 0px;}
+                                            .container3 strong{
+                                                font-family: Lato,sans-serif;
+                                                position: absolute;
+                                                top: 44px;
+                                                color: black;
+                                                width: 270px;
+                                                font-size: 36px;
+                                                left: 600px;
+                                            color: rgb(0, 0, 0);}
+                                            #shoaibbot5{
+                                                top: 57px;
+                                                position: absolute;
+                                                left: 526px;
+                                            }
+                                            
+                                            #shoaibbot6{
+                                                top: 57px;
+                                                position: absolute;
+                                                right: 558px;}
+                                               .imagef img{ position: absolute;
+    top: 140px;
+    left: 120px;
+    width: 600px;}
+    .imageg img{    position: absolute;
+        position: absolute;
+        width: 174px;
+        top: 138px;
+        height: 100px;
+        left: 762px;}
+        .imageh img{    position: absolute;
+            position: absolute;
+            width: 174px;
+            top: 237px;
+            height: 113px;
+            left: 762px;}
+            .imagei img{    position: absolute;
+                position: absolute;
+                width: 174px;
+                top: 350px;
+                height: 122px;
+                left: 762px;}
+                .imagej img{    
+                    position: absolute;
+                    width: 174px;
+                    top: 471px;
+                    height: 119px;
+                    left: 762px;}
+                    #play img{
+ 
+                        width: 75px;
+                        position: absolute;
+                        top: 497px;
+                        left: 609px;
+                        height: 70px;
+                    }
+                    #play1 p{
+                        text-decoration: none;
+                        position: absolute;
+                        top: 122px;
+                        left: 936px;
+                        border: 1px solid black;
+                        padding-top: 13px;
+                        padding-bottom: 70px;
+                        padding-left: 10px;
+                        background-color: white;
+                        color: black;
+                        padding-right: 110px;
+                    }
+                    #play2 p{
+                        text-decoration: none;
+                        position: absolute;
+                        top: 224px;
+                        left: 936px;
+                        border: 1px solid black;
+                        padding-top: 13px;
+                        padding-bottom: 59px;
+                        padding-left: 10px;
+                        background-color: white;
+                        color: black;
+                        padding-right: 2px;
+                        width: 344px;
+                    }
+                    #play3 p{
+                        text-decoration: none;
+                        position: absolute;
+                        top: 333px;
+                        left: 936px;
+                        border: 1px solid black;
+                        padding-top: 13px;
+                        padding-bottom: 84px;
+                        padding-left: 10px;
+                        background-color: white;
+                        color: black;
+                        padding-right: 2px;
+                        width: 344px;
+                    }
+                    #play4 p{
+                        text-decoration: none;
+                        position: absolute;
+                        top: 450px;
+                        left: 936px;
+                        border: 1px solid black;
+                        padding-top: 19px;
+                        padding-bottom: 84px;
+                        padding-left: 10px;
+                        background-color: white;
+                        color: black;
+                        padding-right: 2px;
+                        width: 344px;
+                    }
+                    #viewall1{
+                        width: 228px;
+                        border-radius: 20px;
+                        height: 43px; 
+                        border: none;
+                        background-color: 
+                        #cb070b;
+                        cursor: pointer;
+                        color: white;
+                        z-index: 1;
+                        position:absolute;  
+                        border: 2px solid black;
+                        top: 662px;
+                        left: 580px;
+                    
+                    }
+                    .third::before{
+                        background:url('ab.png')no-repeat center center/cover;
+                        content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 65%;
+                    z-index: -1;
+                    top: 166rem;
+                    left: 0;
+                    /* opacity: 0.5; */
+                    
+                    }
+                    .image9 img{
+                        position: absolute;
+                        top: 175rem;
+                        left: 16rem;
+                        width: 14rem;
+                    }
+                    .headink{
+                        position: absolute;
+                        top: 173rem;
+                        left: 44rem;
+                        
+                        color: white;
+                        width: 28rem;
+                    }
+                    #ok{
+                        position: absolute;
+                        top: 177rem;
+                        left: 47rem;
+                        color: white;
+                        width: 28rem;
+                    }
+                    #ok2{
+                        position: absolute;
+                        top: 179rem;
+                        left: 52rem;
+                        color: white;
+                        width: 28rem;
+                    }
+                    #viewall3{
+                        width: 228px;
+                        border-radius: 20px;
+                        height: 43px;
+                        border: none;
+                        background-color: #cb070b;
+                        cursor: pointer;
+                        color: white;
+                        z-index: 1;
+                        position: absolute;
+                        border: 2px solid black;
+                        top: 183rem;
+                        left: 633px;
+                    }
+                    #viewall4{
+                        width: 228px;
+                        border-radius: 20px;
+                        height: 43px;
+                        border: none;
+                        background-color: #cb070b;
+                        cursor: pointer;
+                        color: white;
+                        z-index: 1;
+                        position: absolute;
+                        border: 2px solid black;
+                        top: 183rem;
+                        left: 894px;
+                    }
+                    .container0{
+                        height: 30rem;
+                        width: 100%;
+                        background-color: rgb(255, 253, 253);
+                        position: absolute;
+                        top: 3014px;
+                        left: 0px;}
+                        .container0 strong{
+                            font-family: Lato,sans-serif;
+                            position: absolute;
+                            top: 44px;
+                            color: black;
+                            width: 270px;
+                            font-size: 36px;
+                            left: 600px;
+                        color: rgb(0, 0, 0);}
+                        #shoaibbot8{
+                            top: 57px;
+                            position: absolute;
+                            left: 526px;
+                        }
+                        
+                        #shoaibbot7{
+                            top: 57px;
+                            position: absolute;
+                            right: 479px;}
+                            .image8 img{
+                                width: 325px;
+                                position: absolute;
+                                top: 122px;
+                                left: 141px;
+                                
+                            }
+                            .image7 img{
+                                width: 325px;
+                                position: absolute;
+                                top: 122px;
+                                left: 569px;
+                                
+                            }
+                            .image6 img{
+                                width: 285px;
+                                position: absolute;
+                                top: 122px;
+                                left: 972px;
+                                
+                            }
+                            .image5 img{
+                               
+                                width: 325px;
+                                position: absolute;
+                                top: 300px;
+                                left: 141px;
+                                
+                            }
+                            .image4 img{
+                                width: 325px;
+                                position: absolute;
+                                top: 300px;
+                                left: 569px;
+                                
+                            }
+                            .image3 img{
+                                width: 285px;
+                                position: absolute;
+                                top: 300px;
+                                left: 972px;
+                                height: 136px;
+                            }
+                    
+                            .image8 p{
+                                font-family: sans-serif;
+                                width: 325px;
+                                position: absolute;
+                                top: 105px;
+                                left: 147px;
+                                font-size: 25px;
+                                color: white;
+                                
+                            }
+                            .image7 p{
+                                width: 325px;
+                                position: absolute;
+                                top: 110px;
+                                left: 569px;
+                                font-family: sans-serif;
+                                font-size: 25px;
+                                color: white;
+                                
+                            }
+                            .image6 p{
+                                width: 285px;
+                                position: absolute;
+                                top: 110px;
+                                left: 972px;
+                                font-family: sans-serif;
+                                font-size: 25px;
+                                color: white;
+                                
+                            }
+                            .image5 p{
+                               
+                                width: 325px;
+                                position: absolute;
+                                top: 280px;
+                                left: 141px;
+                                font-family: sans-serif;
+                                font-size: 25px;
+                                color: white;
+                                
+                            }
+                            .image4 p{
+                                width: 325px;
+                                position: absolute;
+                                top: 280px;
+                                left: 569px;
+                                font-family: sans-serif;
+                                font-size: 25px;
+                                color: white;
+                                
+                            }
+                            .image3 p{
+                                width: 285px;
+                                position: absolute;
+                                top: 280px;
+                                left: 972px;
+                                height: 136px;
+                                font-family: sans-serif;
+                                font-size: 25px;
+                                color: white;
+                            }
+                            .containerm{
+                                height: 44rem;
+                                width: 100%;
+                                background-color: #c4d5da;
+                                position: absolute;
+                                top: 3494px;
+                                left: 0px;}
+                                .containerm strong{
+                                    font-family: Lato,sans-serif;
+                                    position: absolute;
+                                    top: 44px;
+                                    color: black;
+                                    width: 270px;
+                                    font-size: 36px;
+                                    left: 600px;
+                                color: rgb(0, 0, 0);}
+                                #shoaibbot10{
+                                    top: 57px;
+                                    position: absolute;
+                                    left: 526px;
+                                }
+                                
+                                #shoaibbot9{
+                                    top: 57px;
+                                    position: absolute;
+                                    right: 440px;}
+                                    .herotime{
+                                        width: 50rem;
+                                        height: 300px;
+                                        position: absolute;
+                                        left: 34%;
+                                        top: 18%;
+                                        background-image: url(1a.jpg);
+                                        background-size: 100% 100%;
+                                        height: 30rem;
+                                        animation: RIDER 25s infinite ease-out;
+                                        animation-iteration-count: 5s;
+                                    }
+                                    @keyframes RIDER{
+                                    0%{
+                                    background-image: url('2a.jpg');
+                                    
+                                    }
+                                    10%{background-image: url('3a.jpg');}
+                                    
+                                    30%{background-image: url('4a.jpg');}
+                                    
+                                    50%{background-image: url('5a.jpg');}
+                                    
+                                    
+                                    
+                                    }
+                                    .missed {  width: 19rem;
+                                        height: 300px;
+                                        position: absolute;
+                                        left: 5%;
+                                        top: 14%;
+                                        background-size: 100% 100%;
+                                        height: 16rem;
+                                        animation: missed 60s infinite ease-out;
+                                        font-size: 23px;
+                                        padding-top: 173px;
+                                        background-color: white;
+                                        padding-left: 44px;
+                                        padding-right: 44px;
+                                        padding-bottom: 56px;
+                                        animation-iteration-count: 5s;}
+                                        #viewall6{
+                                            width: 228px;
+                                            border-radius: 20px;
+                                            height: 43px;
+                                            border: none;
+                                            background-color: #cb070b;
+                                            cursor: pointer;
+                                            color: white;
+                                            z-index: 1;
+                                            position: absolute;
+                                            border: 2px solid black;
+                                            top: 40rem;
+                                            left: 594px;
+
+                                        }
+                                        .containery{
+                                            height: 25rem;
+                                            width: 100%;
+                                            background-color:#f74d4b;
+                                            position: absolute;
+                                            top: 4198px;
+                                            left: 0px;}
+                                            .containery strong{
+                                                font-family: Lato,sans-serif;
+                                                position: absolute;
+                                                top: 44px;
+                                                color: white;
+                                                width: 270px;
+                                                font-size: 36px;
+                                                left: 600px;
+                                            }
+                                            #shoaibbot12{
+                                                top: 57px;
+                                                position: absolute;
+                                                left: 526px;
+                                            }
+                                            
+                                            #shoaibbot11{
+                                                top: 57px;
+                                                position: absolute;
+                                                right: 523px;}
+   #ab p{                                             position: absolute;
+    top: 90px;
+    width: 159px;
+    background-color: white;
+    left: 27px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+    font-family: fantasy;
+   }       
+   #ac p{                                             position: absolute;
+    top: 90px;
+    width: 159px;
+    background-color: white;
+    left: 319px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+    font-family: fantasy;
+   }           
+   #ad p{                                             position: absolute;
+    top: 90px;
+    width: 159px;
+    background-color: white;
+    left: 655px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 150px;
+    font-family: fantasy;
+   }           
+   #ae p{                             position: absolute;
+    top: 90px;
+    width: 159px;
+    background-color: white;
+    left: 957px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+    font-family: fantasy;
+   }          
+   .image11 img{
+    position: absolute;
+    width: 148px;
+    top: 134px;
+    left: 63px;
+   } 
+   .image22 img{
+    position: absolute;
+    width: 148px;
+    top: 134px;
+    left: 350px;
+   } 
+   .image33 img{
+    position: absolute;
+    width: 148px;
+    top: 134px;
+    left: 688px;
+   } 
+   .image44 img{
+    position: absolute;
+    width: 148px;
+    top: 134px;
+    left: 990px;
+   } 
+                 
+   .containerz{
+    height: 18rem;
+    width: 100%;
+    background-color:#000000;
+    position: absolute;
+    top: 400px;
+    left: 0px;}
+    .containerz strong{
+        font-family: Lato,sans-serif;
+    position: absolute;
+    top: 90px;
+    color: white;
+    width: 257px;
+    font-size: 13px;
+    left: 384px;    }   
+    .containerpro p{
+        font-family: Lato,sans-serif;
+    position: absolute;
+    top: 80px;
+    color: white;
+    width: 257px;
+    font-size: 13px;
+    left: 600px;    } 
+    .containerpro1 p{
+        font-family: Lato,sans-serif;
+    position: absolute;
+    top: 80px;
+    color: white;
+    width: 257px;
+    font-size: 13px;
+    left: 745px;    }    
+    .containerpro2 p{
+        font-family: Lato,sans-serif;
+    position: absolute;
+    top: 80px;
+    color: white;
+    width: 257px;
+    font-size: 13px;
+    left: 900px;    }         
+  .loogo img{
+      position: absolute;
+      width: 100px;
+      top: 150px;
+      left:400px ;
+  }
+  .containerlast p{
+    position: absolute;
+    top: 556px;
+    color: white;
+    left: 539px;
+    font-size: 10px;
+    width: 354px;
+   }   

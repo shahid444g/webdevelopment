@@ -1,0 +1,49 @@
+#element {
+    
+    width: 200px;
+    position: fixed;
+    top: 0;
+    padding-left: 550px;
+    
+}
+
+.row1{
+    position: fixed;
+    top: 0;
+}
+.row3{
+    position: fixed;
+    top: 0;
+    padding-left: 550px;
+}
+.row4{
+    position: fixed;
+    top: 0;
+    padding-left: 550px;
+}
+.row1 h2 {
+    padding-left: 550px;
+    color: red;
+  
+
+}
+.row3 li a{
+    text-decoration: none;
+
+    top:0;
+}
+.row4 li a{
+    text-decoration: none;
+    width: 100px;
+}
+.row3 li{
+    list-style:none;
+    width:100%;
+ 
+}
+.row4 li{
+    list-style:none;
+    
+    top:0;
+    
+}

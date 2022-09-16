@@ -1,0 +1,46 @@
+body{
+    height: 10000px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.title{
+    top: 30px;
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+    left: 70px;
+}
+.card{
+    padding: 10px; 
+     margin: 70px;
+     
+ 
+}
+.card-title{
+ margin: 20px;
+
+}
+.giveninput{
+   
+    margin: 20px;
+    width: 50rem;
+    height: 8rem;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 195, 255);
+    word-wrap: break-word;
+    word-break: break-all;
+    display: block;
+    width: 100%;
+    word-wrap: break-word;
+        word-break: break-all;
+        height: 80px;
+    }
+  
+}
+
+
+.btn{
+left: 20px;
+position: relative;}

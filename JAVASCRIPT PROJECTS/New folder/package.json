@@ -1,0 +1,10 @@
+{
+    "tags": [
+      "swiper"
+    ],
+    "name": "Swiper - Scrollbar",
+    "dependencies": {
+      "swiper": "latest",
+      "parcel-bundler": "^1.6.1"
+    }
+  }
